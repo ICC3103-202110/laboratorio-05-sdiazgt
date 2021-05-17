@@ -20,10 +20,7 @@ function getTable(model){
     const {tip} = model
     const {total} = model
     return [
-        {billAmount: billAmount},
-        {"Tip (%)": percentage},
-        {Tip: tip},
-        {Total: total}
+        {billAmount: billAmount,"Tip (%)": percentage,Tip: tip,Total: total}
 
     ]
 }
